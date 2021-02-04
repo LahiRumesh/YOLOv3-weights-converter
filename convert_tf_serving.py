@@ -11,11 +11,11 @@ from yolo3.utils import letterbox_image
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 
-model_path='weights.h5'
+model_path='weights.h5'  
 anchors_path='main_anchors.txt'
-classes_path='data_classes_2.txt'
-score_threshold=0.3
-iou_threshold=0.1               
+classes_path='data_classes.txt'
+score_threshold=0.5
+iou_threshold=0.25               
 output_model='serving/yolov3/1'
 
 class YOLOEvaluationLayer(tf.keras.layers.Layer):
