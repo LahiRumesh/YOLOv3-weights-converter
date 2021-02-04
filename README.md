@@ -5,10 +5,10 @@ This can use to convert Tensorflow(Keras H5 format) for Tensorflow Serving
 
 #### The test environment 
 
-Python 3.7
-tensorflow 2.3.1
-numpy 1.18.5
-Pillow 8.0.1
+    - Python 3.7
+    - tensorflow 2.3.1
+    - numpy 1.18.5
+    - Pillow 8.0.1
 
 
 ####  Convert yolov3.h5 weights  
