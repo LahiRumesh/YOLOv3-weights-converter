@@ -1,4 +1,4 @@
-# YOLOv3 weightsconvert for Tensorflow Serving
+# YOLOv3 weights (Keras H5 format) convert for Tensorflow Serving
 
 This can use to convert Tensorflow(Keras H5 format) for Tensorflow Serving
 
